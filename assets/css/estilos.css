@@ -1,0 +1,241 @@
+/*Estilos personalizados por Marilyn Aguilar González*/
+body{
+    font-size: 1.2rem;
+}
+
+.fondo-nav{
+    background: #2a0b01 !important;
+}
+#logo {
+    width: 200px;
+    height: 100px;
+}
+
+#menu-navegacion .img {
+    padding-bottom: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+}
+
+#inicio{
+    background: url("../img/vegan8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron{
+    width: 100%;
+    height: 500px;
+    background: rgba(35, 35, 35, 0.7);
+    color: #fff;
+    padding-top: 180px;
+}
+
+.lead {
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#llamado-accion{
+    background: #df2176;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+#intro {
+    background-color: #f5f3ec;
+    padding-bottom: 15px;
+}
+
+#intro .mt-5 {
+    text-align: justify;
+    padding-right: 60px;
+}
+
+#intro .mt-3 {
+    text-align: justify;
+    padding-right: 60px;
+}
+
+.mt-5 img {
+    width: 70%;
+}
+#vegan {
+color: #115437;
+}
+#crueltyfree {
+    color: #2a2a60;
+}
+#qfree{
+    color: #114054;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#producto1 {
+    background-color: #1f8b8a;
+    color :white;
+    border-color: #fff;
+    border-width: 10px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+#producto2 {
+    background-color: #7682ca;
+    color :white;
+    border-color: #fff;
+    border-width: 10px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+#producto3 {
+    background-color: #3089aa;
+    color :white;
+    border-color: #fff;
+    border-width: 10px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .6rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-pinterest {
+	background: #E83028;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-instagram {
+	background: #f23567;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+.c-newsletter {
+    margin: 30px 0px 0 0;
+    padding: 35px 0px;
+    background: #f5f3ec;
+}
+
+#c-suscripción {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.c-newsletter h2 {
+    margin-bottom: 20px;
+    color: #2e0c01;
+}
+
+.c-newsletter form {
+    background: #f7cabb;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.form {
+    display: block;
+    margin-top: 0em;
+    
+}
+
+.c-newsletter__inputs input {
+    border-radius: 5px;
+    font-size:medium ;
+}
+
+.c-newsletter__inputs button {
+    overflow: visible;
+    border-radius: 5px;
+    font-size:medium ;
+    background: #2e0c01;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-copyright {
+        background-color: #2a0b01;
+        color:white;
+        margin-top: 0px;
+        padding: 5px;
+        text-align: center;
+}
+
+/*Formulario de Contacto*/
+#Formulario-contacto{
+    background-color: #f5f3ec;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.row h1{
+    color: #2a0b01;
+}
+.row label {
+    color: #166684;
+}
+
+/*Carrito de compra*/
+#Fondo-carrito{
+    background-color: white;
+}
+
+#contenedor-base {
+    background-color:#f5f3ec;
+    ;
+}
+#contenedor-checkout {
+    background-color: #599ba0;
+}
+
+.mb-3 {
+    color: #011e1d;
+}
+
+.mt-4 label {
+    color: #000c10;
+}
